@@ -3,93 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>RopaShop</title>
 </head>
 <body>
-    <div> <!-- Menu y fondo de imagen -->
-        <div class="barra">
-            <nav class="nav-bar">
-                <div class="nav-genero"></div>
-                <div class="nav-logo"></div>
-                <div class="nav-login"></div>
-            </nav>
-        </div>
-
-        <div class="background-image">
+    <header class="site-header inicio">
+        <div class="contenido-header contenedor"> <!-- Menu y fondo de imagen -->
+            <div class="barra">
+                <nav class="nav-bar">
+                    <div class="nav-genero">
+                        <a href="#">Hombre</a>
+                        <a href="#">Mujer</a>
+                    </div>
+                    <div class="nav-logo">
+                        <a href="">
+                            <img src="" alt="Logo Imagen">
+                        </a>
+                    </div>
+                    <div class="nav-login">
+                        <a href="">Buscar</a>
+                        <a href="">Login</a>
+                    </div>
+                </nav>
+            </div>
             <h1>Welcome to RopaShop</h1>
         </div>
-    </div>
+    </header>
 
     <!--Categorias arma tu look-->
-    <section>
+    <section class="">
         <div class="categorias-seccion">
-            <h2>Arma tu look</h2>
-            <div class="categorias">
+            <h2 class="centrar-texto">Arma tu look</h2>
+            <div class="categorias centrar-texto">
                 <div class="categoria">
-                    <img alt="imagen-categoria">
-                    <h3>Nombre de la categoria</h3>
+                    <img src="img/rh1.jpg" alt="imagen-categoria">
+                    <h3>CAMISAS</h3>
                 </div>
                 <div class="categoria">
-                    <img alt="imagen-categoria">
-                    <h3>Nombre de la categoria</h3>
+                    <img src="img/rh2.jpg" alt="imagen-categoria">
+                    <h3>PLAYERAS</h3>
                 </div>
                 <div class="categoria">
-                    <img alt="imagen-categoria">
-                    <h3>Nombre de la categoria</h3>
+                    <img src="img/rh3.jpg" alt="imagen-categoria">
+                    <h3>PANTALONES</h3>
                 </div>
                 <div class="categoria">
-                    <img alt="imagen-categoria">
-                    <h3>Nombre de la categoria</h3>
+                    <img src="img/rh4.jpg" alt="imagen-categoria">
+                    <h3>SUETERES</h3>
                 </div>
                 <div class="categoria">
-                    <img alt="imagen-categoria">
-                    <h3>Nombre de la categoria</h3>
+                    <img src="img/rh5.jpg" alt="imagen-categoria">
+                    <h3>OUTFIT COMPLETO</h3>
                 </div>
-            </div>
+        </div>
     </section>
 
+
+    <!--Lo nuevo en la tienda-->
     <main class="lo-nuevo">
-        <div class="tarjeta">
-            <img src="#" alt="imagen-lonuevo">
-            <h3>Nombre de articulo</h3>
-            <p>Costo</p>
-        </div>
-        <div class="tarjeta">
-            <img src="#" alt="imagen-lonuevo">
-            <h3>Nombre de articulo</h3>
-            <p>Costo</p>
-        </div>
-        <div class="tarjeta">
-            <img src="#" alt="imagen-lonuevo">
-            <h3>Nombre de articulo</h3>
-            <p>Costo</p>
-        </div>
-        <div class="tarjeta">
-            <img src="#" alt="imagen-lonuevo">
-            <h3>Nombre de articulo</h3>
-            <p>Costo</p>
-        </div>
-        <div class="tarjeta">
-            <img src="#" alt="imagen-lonuevo">
-            <h3>Nombre de articulo</h3>
-            <p>Costo</p>
-        </div>
-        <div class="tarjeta">
-            <img src="#" alt="imagen-lonuevo">
-            <h3>Nombre de articulo</h3>
-            <p>Costo</p>
+        <h2 class="centrar-texto">Que ponerte hoy</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <img src="img/zh1.jpg" alt="imagen-lonuevo">
+                <p>Zapato para hombre</p>
+                <p>$350</p>
+            </div>
+
+
+            <div class="tarjeta">
+                <img src="img/zh2.jpg" alt="imagen-lonuevo">
+                <p>Zapato para Vestir</p>
+                <p>$560</p>
+            </div>
+            <div class="tarjeta">
+                <img src="img/rh2.jpg" alt="imagen-lonuevo">
+                <p>Playera Polo</p>
+                <p>$250</p>
+            </div>
+            <div class="tarjeta">
+                <img src="#" alt="imagen-lonuevo">
+                <h3>Nombre de articulo</h3>
+                <p>Costo</p>
+            </div>
+            <div class="tarjeta">
+                <img src="#" alt="imagen-lonuevo">
+                <h3>Nombre de articulo</h3>
+                <p>Costo</p>
+            </div>
+            <div class="tarjeta">
+                <img src="#" alt="imagen-lonuevo">
+                <h3>Nombre de articulo</h3>
+                <p>Costo</p>
+            </div>
         </div>
     </main>
 
+    <!--Categorias de nuestros productos-->
     <section class="seccion-tu">
-        <div class="tipo-look">
-            <img src="" alt="imagen de categoria">
-            <h3>Nombre de categoria</h3>
-            <button>Ver todo</button>
+        <h2>Nuestras categorias</h2>
+        <div>
+            <div class="tipo-look">
+                <img src="" alt="imagen de categoria">
+                <h3>Nombre de categoria</h3>
+                <button>Ver todo</button>
+            </div>
+
+            <div class="tipo-look">
+                <img src="" alt="imagen de categoria">
+                <h3>Nombre de categoria</h3>
+                <button>Ver todo</button>
+            </div>
+
+            <div class="tipo-look">
+                <img src="" alt="imagen de categoria">
+                <h3>Nombre de categoria</h3>
+                <button>Ver todo</button>
+            </div>
+
+            <div class="tipo-look">
+                <img src="" alt="imagen de categoria">
+                <h3>Nombre de categoria</h3>
+                <button>Ver todo</button>
+            </div>
         </div>
     </section>
+
+    <!--Lo ultimo-->
+    <footer>
+        <div class="newsletter">
+            <h3>Suscribete y recibe ofertas</h3>
+            <form action="">
+                               
+            </form>
+        </div>
+    </footer>
 </body>
 </html>
